@@ -8,8 +8,5 @@ namespace PR1
 {
     class Product
     {
-        private string name;
-        private string cipher;
-        private int amount;
     }
 }
