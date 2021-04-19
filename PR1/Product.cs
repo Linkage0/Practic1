@@ -12,7 +12,7 @@ namespace PR1
         private string cipher;
         private int amount;
 
-        Product()
+        public Product()
         {
             name = "";
             cipher = "";
@@ -21,17 +21,17 @@ namespace PR1
 
         public void ShowName()
         {
-            Console.WriteLine("The current stuff name = " + name);
+            Console.WriteLine("The current product name = " + name);
         }
 
         public void ShowCipher()
         {
-            Console.WriteLine("The current stuff cipher = " + cipher);
+            Console.WriteLine("The current product cipher = " + cipher);
         }
 
         public void ShowAmount()
         {
-            Console.WriteLine("The current stuff amount = " + amount);
+            Console.WriteLine("The current product amount = " + amount);
         }
 
         public string Name

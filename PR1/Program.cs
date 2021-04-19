@@ -6,7 +6,10 @@ namespace PR1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Product product = new Product();
+            product.Name = "Some name";
+            product.Cipher = "Some cipher";
+            product.Amount = 5;
         }
     }
 }
